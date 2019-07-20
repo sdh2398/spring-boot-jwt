@@ -23,6 +23,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.0.1'
 	
+	compile 'io.jsonwebtoken:jjwt-api:0.10.5'
+	runtime 'io.jsonwebtoken:jjwt-impl:0.10.5','io.jsonwebtoken:jjwt-jackson:0.10.5'
+	
 	compileOnly 'org.projectlombok:lombok'
 	
 	runtimeOnly 'mysql:mysql-connector-java'
