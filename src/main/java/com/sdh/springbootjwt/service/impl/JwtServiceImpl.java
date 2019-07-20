@@ -36,8 +36,6 @@ public class JwtServiceImpl implements JwtService {
 		return jws;
 	}
 
-
-
 	@Override
 	public Jws<Claims> getJwsClaims(String jws) {
 		Jws<Claims> claims = Jwts.parser()
